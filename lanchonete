@@ -1,0 +1,33 @@
+Algoritmo "lanchonete"
+
+Var
+
+   escolha_, cod_prod, quant_compra: inteiro
+   valor_pagar:real
+
+Inicio
+
+escreva("Digite o codigo do produto: ")
+leia(escolha_)
+escreva("Quantidade comprada: ")
+leia(quant_compra)
+
+escolha escolha_
+
+Caso 1
+  valor_pagar <- 5.0 *  quant_compra
+Caso 2
+  valor_pagar <- 3.5 *  quant_compra
+Caso 3
+  valor_pagar <- 4.80 *  quant_compra
+Caso 4
+  valor_pagar <- 8.90 *  quant_compra
+Caso 5
+  valor_pagar <- 7.32 *  quant_compra
+outrocaso
+escreval("Opção Invalida")
+
+Fimescolha
+
+escreval("Valor a pagar: R$", valor_pagar:5:2)
+Fimalgoritmo
