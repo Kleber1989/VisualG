@@ -1,0 +1,24 @@
+Algoritmo "testes de mesa"
+
+Var
+x,y,i:inteiro
+
+Inicio
+
+x <- 4
+y <- 0
+i <- 0
+
+
+enquanto i < x faca
+
+i <- i + 1
+y <- y + 1
+
+escreva(i)
+
+escreval(y)
+
+Fimenquanto
+
+Fimalgoritmo
