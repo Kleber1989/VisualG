@@ -1,0 +1,22 @@
+Algoritmo "senha_fixa"
+
+Var
+
+senha:caracter
+
+Inicio
+
+
+escreval("Digite a senha:")
+leia(senha)
+
+enquanto senha <> "2312" faca
+
+ escreval("Senha Invalida! Tente novamente:")
+ leia(senha)
+
+ Fimenquanto
+ 
+  escreval("Acesso liberado")
+
+Fimalgoritmo
