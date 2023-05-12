@@ -1,0 +1,38 @@
+Algoritmo "vice-versa"
+
+Var
+
+A, B,trocar_valor:inteiro
+
+
+Inicio
+
+escreva("Digite uma opção: ")
+leia(trocar_valor)
+
+escreva("Digite um número para variável(A): ")
+leia(A)
+
+escreva("Digite um número para variável(B): ")
+leia(B)
+
+escolha trocar_valor
+
+Caso 1
+
+A <- B
+
+escreva("Novo Valor de A:", A)
+
+Caso 2
+
+B <- A
+
+escreva("Novo Valor de B:", B)
+
+outrocaso
+ escreval()
+Fimescolha
+escreval("Escolha Invalida: Valor de cada Variável:",A," - ",B)
+
+Fimalgoritmo
