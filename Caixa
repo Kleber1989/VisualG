@@ -1,0 +1,34 @@
+Algoritmo "Caixa"
+
+Var
+ quant_prod:inteiro
+ vlr_rece, vlr_prod, troco, resto: real
+
+
+Inicio
+escreval("-------------------------------")
+escreva("Valor do produto: R$ ")
+leia(vlr_prod)
+escreval("-------------------------------")
+escreva("Quantidade do produdo: ")
+leia(quant_prod)
+escreval("-------------------------------")
+escreva("valor recebido: R$ ")
+leia(vlr_rece)
+escreval("-------------------------------")
+
+se vlr_rece >= (vlr_prod * quant_prod) entao
+
+troco <-  vlr_rece - vlr_prod * quant_prod
+
+escreva("Troco: R$", troco:8:2)
+
+senao
+resto <- vlr_prod * quant_prod - vlr_rece
+escreva("Faltam: R$", resto:8:2)
+
+Fimse
+
+
+
+Fimalgoritmo
