@@ -1,0 +1,27 @@
+Algoritmo "Teste_enquanto"
+
+Var
+ nome,sair:caracter
+ idade:inteiro
+
+Inicio
+
+escreva("Digite seu nome: ")
+leia(nome)
+escreva("Digite sua idade: ")
+leia(idade)
+
+escreval("Para sair digite: 0")
+
+enquanto sair <> "0" faca
+
+   escreva("Deseja sair: ")
+   leia(sair)
+   
+   
+   
+Fimenquanto
+
+escreval("Olá, meu nome é ", nome, " tenho ", idade, " anos.")
+
+Fimalgoritmo
